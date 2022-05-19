@@ -1,0 +1,191 @@
+/* CSS Document */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(223, 222, 222);
+    font-family: sans-serif;
+}
+
+#container {
+    width: 100%;
+    min-width: 800px;
+     margin: 3% auto; 
+     border: solid 1px #000; 
+
+}
+
+
+h1 {
+    font-size: 60px;
+    color: #ffffff;
+    font-family: monaco;
+    /* background-color: black; */
+    margin-top: 0%;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-bottom: 0%;
+    text-align: left;
+    padding-left: 20px;
+    /* border: #ffffff 5px solid; */
+    text-shadow: rgb(255, 255, 255);
+}
+
+h2 {
+    font-size: 25px;
+    color: #ffffff;
+    font-family: helvetica;
+    background-color: black;
+    text-align: center;
+    /* border: #ffffff 5px solid; */
+    margin: 0% 2% 2% 2%;
+}
+
+#figure {
+    align-content: center;
+}
+
+#img {
+    text-align: center;
+
+}
+
+nav {
+    background-color: #292929;;
+    text-align: center;
+    text-transform: uppercase;}
+
+nav ul {text-align: center;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+
+
+}
+
+nav ul li {display:inline-block;
+    /* background-color: #ffffff; */
+    padding: 1% 1%; margin: 3px;
+    border-radius: 40% 40% 40% 40%;
+
+}
+
+/* nav ul li:hover{background-color: rgb(255, 255, 255)} */
+
+nav ul li a{color:rgb(255, 255, 255);
+    
+    text-decoration: none;
+}
+
+nav ul li a:hover {text-decoration: underline;
+    font-size: 18px;
+
+}
+
+h2{background-color: rgb(212, 67, 98);
+    align-items: center;
+    right: 90px;
+    
+}
+
+
+#img img{margin: 0 0.5%;
+            opacity: 0.6;
+            box-shadow:  5px 5px 3px #b9b9b9;
+            transition: 1s;}
+
+            #img img:hover{opacity: 1;}
+
+#redes_sociais img:hover{transform: rotate(360deg) scale(1);
+transition: 1s;}
+
+#principal {display: flex;
+    padding: 0% 0% 0% 0%;
+    text-align: left;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 2;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu-h{
+    background-color: #292929;
+    border-image-width: 1%, 0, 0, 0,;
+    margin-bottom: 0.5%;
+    cursor: pointer;
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#logo2 {
+        text-align: center;
+        width: 5%;
+        border: 0px;
+        position: absolute;
+        left: 0.7%;
+        top: 0.5%;
+}
+
+#name_logo {
+    font-family: sans-serif;
+    position: absolute;
+    width: 5%;
+    border: 0%;
+    right: 88%;
+    bottom: 93%;
+    width: 5%;
+    font-size: 30px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#menu-h ul li {
+    display: inline;
+    list-style: none;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(212, 67, 98);
+
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color: rgb(212, 67, 98);
+}
+
+#luccaslindo {
+    position: absolute;
+    left: 86%;
+    display: block;
+    
+}
+
+#luccaslindo ul li {
+    text-decoration: none;
+    
+}
+
+aside li {
+    list-style: none;
+    text-decoration: none;
+}
